@@ -1,14 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>City/Weather Search</title>
-  <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-  <!-- YOUR CODE HERE -->
-  
-  <script src="./app.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>City/Weather Search</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="">
+    <!-- YOUR CODE HERE -->
+
+    <!-- <div class="container"> -->
+    <form action="#" method="get" id="form">
+      <input
+        type="search"
+        name="search"
+        id="cityname"
+        placeholder="Enter city name..."
+        class="cityname"
+      />
+      <input
+        type="submit"
+        value="Search"
+        name="submit"
+        id="submit"
+        class="submit"
+      />
+    </form>
+
+    <div id="weather-container" class=""></div>
+
+    <div id="table-container"></div>
+    <!-- </div> -->
+
+    <script src="./app.js"></script>
+  </body>
 </html>
