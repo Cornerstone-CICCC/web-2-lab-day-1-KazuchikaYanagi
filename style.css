@@ -32,7 +32,7 @@ body {
   width: 80%;
   border: solid 1px #fff !important;
   border-radius: 5px;
-  background-color: #000 !important;
+  background-color: rgba(0, 0, 0, 0.75) !important;
 }
 
 .submit {
